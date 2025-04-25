@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation_TakeHome</title>
+    <link rel="stylesheet" href="./src/styles/main.scss">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <span></span>
+            <a href="#cupertino">Cupertino</a>
+            <a href="#new-york-city">New York City</a>
+            <a href="#london">London</a>
+            <a href="#amsterdam">Amsterdam</a>
+            <a href="#tokyo">Tokyo</a>
+            <a href="#hong-kong">Hong Kong</a>
+            <a href="#sydney">Sydney</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <div class="mobile-nav">
+            <nav class="mobile-nav-inner">
+                <a href="#cupertino">Cupertino</a>
+                <a href="#new-york-city">New York City</a>
+                <a href="#london">London</a>
+                <a href="#amsterdam">Amsterdam</a>
+                <a href="#tokyo">Tokyo</a>
+                <a href="#hong-kong">Hong Kong</a>
+                <a href="#sydney">Sydney</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="city-time">
+            <div class="city-info">
+                <h1 class="city-name"></h1>
+                <div class="time-display">
+                    <span class="time"></span>
+                    <span class="date"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>
